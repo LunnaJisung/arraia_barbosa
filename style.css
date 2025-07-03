@@ -129,3 +129,27 @@ body {
     
     /* Mantenha o resto do CSS que já estava */
 
+
+.youtube-player {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 215, 0, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #8B0000;
+  z-index: 1000;
+}
+
+.youtube-player h3 {
+  color: #8B0000;
+  margin-top: 0;
+  text-align: center;
+}
+
+.youtube-player p {
+  color: #8B0000;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bold;
+}
