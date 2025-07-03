@@ -172,3 +172,85 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+  .music-player {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #8B0000;
+            padding: 10px 15px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            z-index: 1000;
+            border: 2px solid #FFD700;
+        }
+        
+        .music-player audio {
+            width: 200px;
+            height: 40px;
+        }
+        
+        .music-title {
+            font-weight: bold;
+            color: #FFD700;
+        }
+
+/* Esconde o checkbox real */
+        #music-toggle {
+            display: none;
+        }
+        
+        /* Estilo do botão do player */
+        .music-label {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: #8B0000;
+            color: #FFD700;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 1000;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            border: 2px solid #FFD700;
+        }
+        
+        /* Ícone do botão */
+        .music-icon::before {
+            content: "\f028"; /* Ícone de volume do FontAwesome */
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            font-size: 20px;
+        }
+        
+        /* Altera o ícone quando o áudio está mutado */
+        #music-toggle:checked + .music-label .music-icon::before {
+            content: "\f026"; /* Ícone de mudo */
+        }
+        
+        /* Estilo do player de áudio */
+        .audio-player {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            background: rgba(139, 0, 0, 0.9);
+            padding: 15px;
+            border-radius: 10px;
+            transform: scale(0);
+            transform-origin: bottom right;
+            transition: transform 0.3s;
+            color: white;
+        }
+        
+        /* Mostra o player quando o checkbox está marcado */
+        #music-toggle:checked ~ .audio-player {
+            transform: scale(1);
+        }
