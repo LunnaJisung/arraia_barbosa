@@ -1,1 +1,106 @@
+body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #FFD700;
+            text-align: center;
+            color: #8B0000;
+            background-image: url('images/fundo-junino.jpg');
+            background-size: cover;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 800px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: #8B0000;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .bandeirinhas {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .foto-link {
+            display: inline-block;
+            margin: 20px;
+            border: 5px solid #8B0000;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .foto-link:hover {
+            transform: scale(1.05);
+        }
+        .botao {
+            display: inline-block;
+            background-color: #8B0000;
+            color: white;
+            padding: 10px 20px;
+            margin: 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .botao:hover {
+            background-color: #A52A2A;
+        }
 
+ body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #FFD700;
+            text-align: center;
+            color: #8B0000;
+            background-image: url('images/fundo-arraial.jpg');
+            background-size: cover;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 800px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: #8B0000;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .bandeirinhas {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .foto-link {
+            display: inline-block;
+            margin: 20px;
+            border: 5px solid #8B0000;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .foto-link:hover {
+            transform: scale(1.05);
+        }
+        .botao {
+            display: inline-block;
+            background-color: #8B0000;
+            color: white;
+            padding: 10px 20px;
+            margin: 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .botao:hover {
+            background-color: #A52A2A;
+        }
+        .descricao {
+            text-align: left;
+            margin: 20px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 10px;
+        }
