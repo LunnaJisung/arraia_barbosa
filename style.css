@@ -104,3 +104,28 @@ body {
             background-color: rgba(255, 255, 255, 0.6);
             border-radius: 10px;
         }
+
+/* Adicione isso no início do seu CSS */
+    .cabecalho {
+        background-color: #8B0000;
+        color: white;
+        padding: 15px 0;
+        border-radius: 15px 15px 0 0;
+        margin: -20px -20px 20px -20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Mantenha o resto do CSS que já estava */
+
+ /* Adicione isso no início do seu CSS */
+    .cabecalho {
+        background-color: #8B0000;
+        color: white;
+        padding: 15px 0;
+        border-radius: 15px 15px 0 0;
+        margin: -20px -20px 20px -20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Mantenha o resto do CSS que já estava */
+
